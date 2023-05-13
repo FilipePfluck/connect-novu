@@ -2,7 +2,7 @@ import { cva } from 'class-variance-authority'
 
 export const sectionContainer = cva(`
   w-full relative 
-  even:bg-white odd:bg-gray-100 
+  even:bg-gray-50 odd:bg-gray-100 
   flex justify-center items-center 
   px-32 py-8
 `)

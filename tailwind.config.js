@@ -3,14 +3,14 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
         magenta: {
@@ -22,7 +22,7 @@ module.exports = {
           600: '#AC003E',
           700: '#82002F',
           800: '#6F0028',
-          900: '#4C001C'
+          900: '#4C001C',
         },
         pink: {
           100: '#FC7CE5',
@@ -33,7 +33,7 @@ module.exports = {
           600: '#B70097',
           700: '#930079',
           800: '#82006B',
-          900: '#660254'
+          900: '#660254',
         },
         yellow: {
           100: '#F5E6B2',
@@ -44,7 +44,7 @@ module.exports = {
           600: '#FBAD11',
           700: '#E18802',
           800: '#C46C04',
-          900: '#8F4908'
+          900: '#8F4908',
         },
         gray: {
           50: '#FDF7FC',
@@ -56,13 +56,13 @@ module.exports = {
           600: '#423D41',
           700: '#272627',
           800: '#151415',
-          900: '#0E0D0E'
-        }
+          900: '#0E0D0E',
+        },
       },
       fontFamily: {
-        text: ['Nunito', 'sans-serif']
-      }
-    }
+        text: ['Nunito', 'sans-serif'],
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
